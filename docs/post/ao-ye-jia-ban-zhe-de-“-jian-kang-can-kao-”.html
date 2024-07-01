@@ -4,7 +4,7 @@
     <meta content="text/html; charset=utf-8" http-equiv="content-type" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link href="//cdn.staticfile.net/Primer/21.0.7/primer.css" rel="stylesheet" />
+    <link href='https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/Primer/21.0.7/primer.css' rel='stylesheet' />
     <link rel="icon" href="https://img.freediy.eu.org/file/0b65ac67e329c3bede488.jpg"><script>
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
@@ -76,8 +76,10 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <p>加班后即使再晚，也应当留出一点时间清理卫生，不要回到宿舍倒头便睡，最好能用热水烫一烫脚，让紧绷的神经得到放松。用过化妆品或护肤品的女同志，熬夜前一定要记得把脸洗干净，以免粉层或油渍在熬夜的煎熬下，引发满脸痘痘。</p>
 <p>熬夜之后，第二天中午时千万记得打个小盹。夜里1:00以后不睡觉，人体的代谢作用由内分泌燃烧，会产生很多毒素，通常熬夜的人得慢性疾病的几率比抽烟或喝酒的人都来得高。所以每天尽量在22：00至24:00以前睡觉，不要常熬夜，若需要熬夜加班，一星期最好不要超过一次。</p></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
+
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
 <div class="comments" id="comments"></div>
+
 </div>
     <div id="footer">Copyright © <span id="year"></span><a href="https://free-diy.github.io"> Lee的博客 </a>
 <p>
@@ -132,6 +134,8 @@ console.log("\n %c Gmeek last https://github.com/Meekdai/Gmeek \n\n","padding:5p
 <script>
 document.getElementById("pathHome").setAttribute("d",IconList["home"]);
 document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
+
+
 
 function openComments(){
     cm=document.getElementById("comments");
